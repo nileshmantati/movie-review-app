@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import movieimg1 from '../p7825626_p_v8_af.jpg';
+import movieimg1 from '../assets/movieimg1.jpg';
+import movieimg2 from '../assets/movieimg2.jpg';
+import movieimg3 from '../assets/movieimg3.webp';
 
 const defaultMovies = [
     {
@@ -9,12 +11,14 @@ const defaultMovies = [
     },
     {
         movieName: "Interstellar",
-        poster: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        // poster: "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        poster: movieimg2,
         reviews: []
     },
     {
         movieName: "The Dark Knight",
-        poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        // poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        poster: movieimg3,
         reviews: []
     }
 ];
